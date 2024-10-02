@@ -33,7 +33,7 @@ def create_user(request):
     return render(request, 'success.html')
 ```
 
-Expected Output When `create_user` View is Called:**
+-----------Expected Output When `create_user` View is Called:
 ```
 Before saving user.
 Signal received: User 'john_doe' has been created.
